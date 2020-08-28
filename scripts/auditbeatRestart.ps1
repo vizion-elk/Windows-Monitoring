@@ -1,5 +1,5 @@
 #Restarts Auditbeat every 15 seconds to enable the USB Capture
-Set-Location -Path 'C:\windows-monitoring-master\local\auditbeat'
+Set-Location -Path 'C:\windows-monitoring-7.6.1\local\auditbeat'
 
 "`nRunning Audtbeat Refresher For External Devices..."
 
