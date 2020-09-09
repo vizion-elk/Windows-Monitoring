@@ -26,7 +26,7 @@ Currently provides the following features that will be monitored:
 
 1) Download the zip file package to your local machine using the link below:
 
-   [Zip File](https://github.com/vizionelkhelp/windows-monitoring/archive/master.zip)
+   [Zip File](https://github.com/vizion-elk/Windows-Monitoring/archive/7.7.0.zip)
 
 2) Unzip the package and extract the contents to the `C:/` drive.
 
@@ -59,14 +59,14 @@ Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 
 #### Server Install
 
-1) Get the [Zip](https://github.com/vizionelkhelp/windows-monitoring/archive/master.zip) package on the server.
+1) Get the [Zip](https://github.com/vizion-elk/Windows-Monitoring/archive/7.7.0.zip) package on the server.
 
    - Option A: Copy and paste the downloaded Zip folder from the local machine to the server.
    
    - Option B: In Powershell, as administrator, run the following request:
    
    ```css
-   Start-BitsTransfer -Source 'https://github.com/vizionelkhelp/windows-monitoring/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\windows-monitoring-master.zip'
+   Start-BitsTransfer -Source 'https://github.com/vizion-elk/Windows-Monitoring/archive/7.7.0.zip' -Destination 'C:\Users\Administrator\Downloads\windows-monitoring-7.7.0.zip'
    ```
 
 2) Unzip the package and extract the contents to the `C:/` drive.

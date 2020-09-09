@@ -40,14 +40,14 @@ $principal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.
 if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
     # code here...
     try {
-        Set-Location -Path 'C:\windows-monitoring-master\local\winlogbeat'
+        Set-Location -Path 'C:\windows-monitoring-7.7.0\local\winlogbeat'
 
         Stop-Service -Force winlogbeat
 
         Get-Service winlogbeat
         
         #Change Directory to Filebeat5
-        Set-Location -Path 'C:\windows-monitoring-master\local\metricbeat'
+        Set-Location -Path 'C:\windows-monitoring-7.7.0\local\metricbeat'
 
         #Stops apachebeat from running
         Stop-Service -Force metricbeat
@@ -55,20 +55,20 @@ if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) 
         #Get The apachebeat Status
         Get-Service metricbeat
 
-        Set-Location -Path 'C:\windows-monitoring-master\local\auditbeat'
+        Set-Location -Path 'C:\windows-monitoring-7.7.0\local\auditbeat'
 
         Stop-Service -Force auditbeat
 
         Get-Service auditbeat
 
-        Remove-Item -Recurse -Force 'C:\windows-monitoring-master\local\auditbeat'
+        Remove-Item -Recurse -Force 'C:\windows-monitoring-7.7.0\local\auditbeat'
 
         #Change Directory to apachebeat5
         Set-Location -Path 'c:\'
 
         "`nUninstalling Windows-Monitoring Now..."
 
-        $Target = "C:\windows-monitoring-master"
+        $Target = "C:\windows-monitoring-7.7.0"
 
         Get-ChildItem -Path $Target -Recurse -force |
             Where-Object { -not ($_.pscontainer)} |
