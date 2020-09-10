@@ -40,19 +40,19 @@ $principal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.
 if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
     "`nRunning Powershell with full privileges`n"
 
-    Set-Location -Path 'c:\windows-monitoring-master\server\winlogbeat'
+    Set-Location -Path 'c:\windows-monitoring-6.5.4\server\winlogbeat'
     Set-ExecutionPolicy Unrestricted
     "Winlogbeat Execution policy set - Success"
 
-    Set-Location -Path 'c:\windows-monitoring-master\server\auditbeat'
+    Set-Location -Path 'c:\windows-monitoring-6.5.4\server\auditbeat'
     Set-ExecutionPolicy Unrestricted
     "Auditbeat Execution policy set - Success"
 
-    Set-Location -Path 'c:\windows-monitoring-master\server\metricbeat'
+    Set-Location -Path 'c:\windows-monitoring-6.5.4\server\metricbeat'
     Set-ExecutionPolicy Unrestricted
     "Metricbeat Execution policy set - Success`n"
 
-    Set-Location -Path 'c:\windows-monitoring-master'
+    Set-Location -Path 'c:\windows-monitoring-6.5.4'
 
     #GUI To Insert User Credentials
     #Pop-up Box that Adds Credentials 
@@ -152,7 +152,7 @@ if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) 
 
     #Load Winlogbeat Credentials And Run
     "`nAdding Winlogbeat Credentials...`n"
-    Set-Location -Path 'c:\windows-monitoring-master\server\winlogbeat'
+    Set-Location -Path 'c:\windows-monitoring-6.5.4\server\winlogbeat'
 
     #Opens up YML file and inserts Kibana Host URL       
     (Get-Content winlogbeat.yml) |       
@@ -207,7 +207,7 @@ if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) 
     #Load Metricbeat credentials and run
     "`nAdding Metricbeat Credentials`n"
 
-    Set-Location -Path 'C:\windows-monitoring-master\server\metricbeat'
+    Set-Location -Path 'C:\windows-monitoring-6.5.4\server\metricbeat'
 
     #Opens up YML file and inserts Kibana URL
     (Get-Content metricbeat.yml) |
@@ -250,7 +250,7 @@ if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) 
     #Load Auditbeat credentials
     "`nAdding Auditbeat Credentials`n"
 
-    Set-Location -Path 'C:\windows-monitoring-master\server\auditbeat'
+    Set-Location -Path 'C:\windows-monitoring-6.5.4\server\auditbeat'
 
     #Opens up YML file and inserts Kibana URL
     (Get-Content auditbeat.yml) |
