@@ -5,10 +5,10 @@
                 "description": "Overview of Consul",
                 "hits": 0,
                 "kibanaSavedObjectMeta": {
-                    "searchSourceJSON": "{\"query\": {\"language\": \"lucene\", \"query\": \"\"}, \"filter\": []}"
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"lucene\"}, \"filter\": []}"
                 },
                 "optionsJSON": "{\"hidePanelTitles\": false, \"useMargins\": true}",
-                "panelsJSON": "[{\"panelIndex\": \"1\", \"panelRefName\": \"panel_0\", \"gridData\": {\"h\": 15, \"i\": \"1\", \"y\": 0, \"x\": 0, \"w\": 24}, \"title\": \"Garbage Collector stats\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}}, {\"panelIndex\": \"2\", \"panelRefName\": \"panel_1\", \"gridData\": {\"h\": 15, \"i\": \"2\", \"y\": 15, \"x\": 15, \"w\": 16}, \"title\": \"Goroutines\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}}, {\"panelIndex\": \"3\", \"panelRefName\": \"panel_2\", \"gridData\": {\"h\": 15, \"i\": \"3\", \"y\": 0, \"x\": 24, \"w\": 24}, \"title\": \"Bytes Allocated\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}}, {\"panelIndex\": \"4\", \"panelRefName\": \"panel_3\", \"gridData\": {\"h\": 15, \"i\": \"4\", \"y\": 15, \"x\": 31, \"w\": 17}, \"title\": \"Heap Objects\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}}, {\"panelIndex\": \"5\", \"panelRefName\": \"panel_4\", \"gridData\": {\"h\": 15, \"i\": \"5\", \"y\": 15, \"x\": 0, \"w\": 15}, \"title\": \"Bytes of memory obtained from the OS\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}}, {\"panelIndex\": \"6\", \"panelRefName\": \"panel_5\", \"gridData\": {\"h\": 15, \"i\": \"6\", \"y\": 30, \"x\": 31, \"w\": 16}, \"title\": \"Malloc count\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}}, {\"panelIndex\": \"7\", \"panelRefName\": \"panel_6\", \"gridData\": {\"h\": 15, \"i\": \"7\", \"y\": 30, \"x\": 0, \"w\": 14}, \"title\": \"Garbage Collector pause ms\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}}, {\"panelIndex\": \"8\", \"panelRefName\": \"panel_7\", \"gridData\": {\"h\": 15, \"i\": \"8\", \"y\": 30, \"x\": 14, \"w\": 17}, \"title\": \"Garbage Collector Runs\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}}]",
+                "panelsJSON": "[{\"gridData\": {\"y\": 0, \"w\": 24, \"x\": 0, \"i\": \"1\", \"h\": 15}, \"panelIndex\": \"1\", \"panelRefName\": \"panel_0\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}, \"title\": \"Garbage Collector stats\"}, {\"gridData\": {\"y\": 15, \"w\": 16, \"x\": 15, \"i\": \"2\", \"h\": 15}, \"panelIndex\": \"2\", \"panelRefName\": \"panel_1\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}, \"title\": \"Goroutines\"}, {\"gridData\": {\"y\": 0, \"w\": 24, \"x\": 24, \"i\": \"3\", \"h\": 15}, \"panelIndex\": \"3\", \"panelRefName\": \"panel_2\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}, \"title\": \"Bytes Allocated\"}, {\"gridData\": {\"y\": 15, \"w\": 17, \"x\": 31, \"i\": \"4\", \"h\": 15}, \"panelIndex\": \"4\", \"panelRefName\": \"panel_3\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}, \"title\": \"Heap Objects\"}, {\"gridData\": {\"y\": 15, \"w\": 15, \"x\": 0, \"i\": \"5\", \"h\": 15}, \"panelIndex\": \"5\", \"panelRefName\": \"panel_4\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}, \"title\": \"Bytes of memory obtained from the OS\"}, {\"gridData\": {\"y\": 30, \"w\": 16, \"x\": 31, \"i\": \"6\", \"h\": 15}, \"panelIndex\": \"6\", \"panelRefName\": \"panel_5\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}, \"title\": \"Malloc count\"}, {\"gridData\": {\"y\": 30, \"w\": 14, \"x\": 0, \"i\": \"7\", \"h\": 15}, \"panelIndex\": \"7\", \"panelRefName\": \"panel_6\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}, \"title\": \"Garbage Collector pause ms\"}, {\"gridData\": {\"y\": 30, \"w\": 17, \"x\": 14, \"i\": \"8\", \"h\": 15}, \"panelIndex\": \"8\", \"panelRefName\": \"panel_7\", \"version\": \"7.0.0-SNAPSHOT\", \"embeddableConfig\": {}, \"title\": \"Garbage Collector Runs\"}]",
                 "timeRestore": false,
                 "title": "[Metricbeat Consul] Overview",
                 "version": 1
@@ -67,12 +67,12 @@
             "attributes": {
                 "description": "",
                 "kibanaSavedObjectMeta": {
-                    "searchSourceJSON": "{\"query\": {\"language\": \"lucene\", \"query\": \"\"}, \"filter\": []}"
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"lucene\"}, \"filter\": []}"
                 },
                 "title": "Garbage Collector stats [Metricbeat Consul]",
                 "uiStateJSON": "{}",
                 "version": 1,
-                "visState": "{\"aggs\": [], \"type\": \"metrics\", \"params\": {\"show_grid\": 1, \"time_field\": \"@timestamp\", \"axis_formatter\": \"number\", \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"axis_position\": \"left\", \"type\": \"timeseries\", \"series\": [{\"metrics\": [{\"type\": \"avg\", \"field\": \"consul.agent.runtime.garbage_collector.pause.current.ns\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"point_size\": 1, \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": \"0\", \"separate_axis\": 0, \"line_width\": \"1\", \"chart_type\": \"line\", \"label\": \"Pause time\", \"value_template\": \"{{value}} ms\", \"stacked\": \"none\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"formatter\": \"ns,ms,2\", \"split_mode\": \"everything\"}, {\"metrics\": [{\"type\": \"sum\", \"field\": \"consul.agent.runtime.garbage_collector.runs\", \"id\": \"9728a011-2dea-11e9-83ed-b7c793d35de5\"}, {\"type\": \"derivative\", \"unit\": \"\", \"field\": \"9728a011-2dea-11e9-83ed-b7c793d35de5\", \"id\": \"9ed22480-2dea-11e9-83ed-b7c793d35de5\"}], \"point_size\": 1, \"steps\": 1, \"id\": \"9728a010-2dea-11e9-83ed-b7c793d35de5\", \"fill\": \"0.5\", \"separate_axis\": 1, \"line_width\": 1, \"chart_type\": \"bar\", \"label\": \"Runs\", \"stacked\": \"none\", \"axis_position\": \"right\", \"color\": \"rgba(115,216,255,1)\", \"formatter\": \"number\", \"split_mode\": \"everything\"}], \"index_pattern\": \"metricbeat-*\", \"axis_scale\": \"normal\", \"show_legend\": 1}, \"title\": \"Garbage Collector stats [Metricbeat Consul]\"}"
+                "visState": "{\"params\": {\"time_field\": \"@timestamp\", \"axis_formatter\": \"number\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"show_grid\": 1, \"axis_position\": \"left\", \"show_legend\": 1, \"index_pattern\": \"metricbeat-*\", \"series\": [{\"point_size\": 1, \"line_width\": \"1\", \"label\": \"Pause time\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"avg\", \"field\": \"consul.agent.runtime.garbage_collector.pause.current.ns\"}], \"separate_axis\": 0, \"color\": \"#68BC00\", \"stacked\": \"none\", \"formatter\": \"ns,ms,2\", \"split_mode\": \"everything\", \"axis_position\": \"right\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": \"0\", \"chart_type\": \"line\", \"value_template\": \"{{value}} ms\"}, {\"point_size\": 1, \"line_width\": 1, \"label\": \"Runs\", \"metrics\": [{\"id\": \"9728a011-2dea-11e9-83ed-b7c793d35de5\", \"type\": \"sum\", \"field\": \"consul.agent.runtime.garbage_collector.runs\"}, {\"unit\": \"\", \"id\": \"9ed22480-2dea-11e9-83ed-b7c793d35de5\", \"type\": \"derivative\", \"field\": \"9728a011-2dea-11e9-83ed-b7c793d35de5\"}], \"separate_axis\": 1, \"color\": \"rgba(115,216,255,1)\", \"steps\": 1, \"stacked\": \"none\", \"formatter\": \"number\", \"split_mode\": \"everything\", \"axis_position\": \"right\", \"id\": \"9728a010-2dea-11e9-83ed-b7c793d35de5\", \"fill\": \"0.5\", \"chart_type\": \"bar\"}], \"interval\": \"auto\", \"axis_scale\": \"normal\"}, \"type\": \"metrics\", \"title\": \"Garbage Collector stats [Metricbeat Consul]\", \"aggs\": []}"
             },
             "id": "dda0c950-2dea-11e9-bf7e-f35bf5d2e71b",
             "migrationVersion": {
@@ -87,12 +87,12 @@
             "attributes": {
                 "description": "",
                 "kibanaSavedObjectMeta": {
-                    "searchSourceJSON": "{\"query\": {\"language\": \"lucene\", \"query\": \"\"}, \"filter\": []}"
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"lucene\"}, \"filter\": []}"
                 },
                 "title": "Goroutines [Metricbeat Consul]",
                 "uiStateJSON": "{}",
                 "version": 1,
-                "visState": "{\"aggs\": [], \"type\": \"metrics\", \"params\": {\"show_grid\": 1, \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"series\": [{\"metrics\": [{\"type\": \"avg\", \"field\": \"consul.agent.runtime.goroutines\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"point_size\": 1, \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"separate_axis\": 0, \"line_width\": 1, \"chart_type\": \"line\", \"label\": \"Goroutines\", \"stacked\": \"none\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"formatter\": \"number\", \"split_mode\": \"everything\"}], \"axis_scale\": \"normal\", \"show_legend\": 1, \"time_field\": \"@timestamp\", \"axis_formatter\": \"number\", \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_min\": \"0\"}, \"title\": \"Goroutines [Metricbeat Consul]\"}"
+                "visState": "{\"params\": {\"show_grid\": 1, \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_formatter\": \"number\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"axis_min\": \"0\", \"time_field\": \"@timestamp\", \"show_legend\": 1, \"series\": [{\"point_size\": 1, \"line_width\": 1, \"label\": \"Goroutines\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"avg\", \"field\": \"consul.agent.runtime.goroutines\"}], \"separate_axis\": 0, \"color\": \"#68BC00\", \"stacked\": \"none\", \"formatter\": \"number\", \"split_mode\": \"everything\", \"axis_position\": \"right\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"chart_type\": \"line\"}], \"interval\": \"auto\", \"axis_scale\": \"normal\"}, \"type\": \"metrics\", \"title\": \"Goroutines [Metricbeat Consul]\", \"aggs\": []}"
             },
             "id": "ea842730-2de9-11e9-bf7e-f35bf5d2e71b",
             "migrationVersion": {
@@ -107,12 +107,12 @@
             "attributes": {
                 "description": "",
                 "kibanaSavedObjectMeta": {
-                    "searchSourceJSON": "{\"query\": {\"language\": \"lucene\", \"query\": \"\"}, \"filter\": []}"
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"lucene\"}, \"filter\": []}"
                 },
                 "title": "Bytes Allocated [Metricbeat Consul]",
                 "uiStateJSON": "{}",
                 "version": 1,
-                "visState": "{\"aggs\": [], \"type\": \"metrics\", \"params\": {\"show_grid\": 1, \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"series\": [{\"metrics\": [{\"type\": \"avg\", \"field\": \"consul.agent.runtime.alloc.bytes\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"point_size\": 1, \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"separate_axis\": 0, \"line_width\": 1, \"chart_type\": \"line\", \"label\": \"Bytes allocated\", \"stacked\": \"none\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"formatter\": \"bytes\", \"split_mode\": \"everything\"}], \"axis_scale\": \"normal\", \"show_legend\": 1, \"time_field\": \"@timestamp\", \"axis_formatter\": \"number\", \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_min\": \"0\"}, \"title\": \"Bytes Allocated [Metricbeat Consul]\"}"
+                "visState": "{\"params\": {\"show_grid\": 1, \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_formatter\": \"number\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"axis_min\": \"0\", \"time_field\": \"@timestamp\", \"show_legend\": 1, \"series\": [{\"point_size\": 1, \"line_width\": 1, \"label\": \"Bytes allocated\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"avg\", \"field\": \"consul.agent.runtime.alloc.bytes\"}], \"separate_axis\": 0, \"color\": \"#68BC00\", \"stacked\": \"none\", \"formatter\": \"bytes\", \"split_mode\": \"everything\", \"axis_position\": \"right\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"chart_type\": \"line\"}], \"interval\": \"auto\", \"axis_scale\": \"normal\"}, \"type\": \"metrics\", \"title\": \"Bytes Allocated [Metricbeat Consul]\", \"aggs\": []}"
             },
             "id": "6c39d4b0-2de9-11e9-bf7e-f35bf5d2e71b",
             "migrationVersion": {
@@ -127,12 +127,12 @@
             "attributes": {
                 "description": "",
                 "kibanaSavedObjectMeta": {
-                    "searchSourceJSON": "{\"query\": {\"language\": \"lucene\", \"query\": \"\"}, \"filter\": []}"
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"lucene\"}, \"filter\": []}"
                 },
                 "title": "Heap Objects [Metricbeat Consul]",
                 "uiStateJSON": "{}",
                 "version": 1,
-                "visState": "{\"aggs\": [], \"type\": \"metrics\", \"params\": {\"show_grid\": 1, \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"series\": [{\"metrics\": [{\"type\": \"avg\", \"field\": \"consul.agent.runtime.heap_objects\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"point_size\": 1, \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"separate_axis\": 0, \"line_width\": 1, \"chart_type\": \"line\", \"label\": \"Heap Objects\", \"stacked\": \"none\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"formatter\": \"number\", \"split_mode\": \"everything\"}], \"axis_scale\": \"normal\", \"show_legend\": 1, \"time_field\": \"@timestamp\", \"axis_formatter\": \"number\", \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_min\": \"0\"}, \"title\": \"Heap Objects [Metricbeat Consul]\"}"
+                "visState": "{\"params\": {\"show_grid\": 1, \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_formatter\": \"number\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"axis_min\": \"0\", \"time_field\": \"@timestamp\", \"show_legend\": 1, \"series\": [{\"point_size\": 1, \"line_width\": 1, \"label\": \"Heap Objects\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"avg\", \"field\": \"consul.agent.runtime.heap_objects\"}], \"separate_axis\": 0, \"color\": \"#68BC00\", \"stacked\": \"none\", \"formatter\": \"number\", \"split_mode\": \"everything\", \"axis_position\": \"right\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"chart_type\": \"line\"}], \"interval\": \"auto\", \"axis_scale\": \"normal\"}, \"type\": \"metrics\", \"title\": \"Heap Objects [Metricbeat Consul]\", \"aggs\": []}"
             },
             "id": "37c75bc0-2dea-11e9-bf7e-f35bf5d2e71b",
             "migrationVersion": {
@@ -147,12 +147,12 @@
             "attributes": {
                 "description": "",
                 "kibanaSavedObjectMeta": {
-                    "searchSourceJSON": "{\"query\": {\"language\": \"lucene\", \"query\": \"\"}, \"filter\": []}"
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"lucene\"}, \"filter\": []}"
                 },
                 "title": "Bytes of memory obtained from the OS [Metricbeat Consul]",
                 "uiStateJSON": "{}",
                 "version": 1,
-                "visState": "{\"aggs\": [], \"type\": \"metrics\", \"params\": {\"show_grid\": 1, \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"series\": [{\"metrics\": [{\"type\": \"avg\", \"field\": \"consul.agent.runtime.sys.bytes\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"point_size\": 1, \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"separate_axis\": 0, \"line_width\": 1, \"chart_type\": \"line\", \"label\": \"Bytes of memory obtained from the OS\", \"stacked\": \"none\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"formatter\": \"bytes\", \"split_mode\": \"everything\"}], \"axis_scale\": \"normal\", \"show_legend\": 1, \"time_field\": \"@timestamp\", \"axis_formatter\": \"number\", \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_min\": \"0\"}, \"title\": \"Bytes of memory obtained from the OS [Metricbeat Consul]\"}"
+                "visState": "{\"params\": {\"show_grid\": 1, \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_formatter\": \"number\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"axis_min\": \"0\", \"time_field\": \"@timestamp\", \"show_legend\": 1, \"series\": [{\"point_size\": 1, \"line_width\": 1, \"label\": \"Bytes of memory obtained from the OS\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"avg\", \"field\": \"consul.agent.runtime.sys.bytes\"}], \"separate_axis\": 0, \"color\": \"#68BC00\", \"stacked\": \"none\", \"formatter\": \"bytes\", \"split_mode\": \"everything\", \"axis_position\": \"right\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"chart_type\": \"line\"}], \"interval\": \"auto\", \"axis_scale\": \"normal\"}, \"type\": \"metrics\", \"title\": \"Bytes of memory obtained from the OS [Metricbeat Consul]\", \"aggs\": []}"
             },
             "id": "69b29820-2dea-11e9-bf7e-f35bf5d2e71b",
             "migrationVersion": {
@@ -167,12 +167,12 @@
             "attributes": {
                 "description": "",
                 "kibanaSavedObjectMeta": {
-                    "searchSourceJSON": "{\"query\": {\"language\": \"lucene\", \"query\": \"\"}, \"filter\": []}"
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"lucene\"}, \"filter\": []}"
                 },
                 "title": "Malloc count [Metricbeat Consul]",
                 "uiStateJSON": "{}",
                 "version": 1,
-                "visState": "{\"aggs\": [], \"type\": \"metrics\", \"params\": {\"show_grid\": 1, \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"series\": [{\"metrics\": [{\"type\": \"sum\", \"field\": \"consul.agent.runtime.malloc_count\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}, {\"type\": \"derivative\", \"unit\": \"\", \"field\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"id\": \"7a6e0aa0-2dea-11e9-83ed-b7c793d35de5\"}], \"point_size\": 1, \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"separate_axis\": 0, \"line_width\": 1, \"chart_type\": \"line\", \"label\": \"Malloc Count\", \"stacked\": \"none\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"formatter\": \"number\", \"split_mode\": \"everything\"}], \"axis_scale\": \"normal\", \"show_legend\": 1, \"time_field\": \"@timestamp\", \"axis_formatter\": \"number\", \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_min\": \"0\"}, \"title\": \"Malloc count [Metricbeat Consul]\"}"
+                "visState": "{\"params\": {\"show_grid\": 1, \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_formatter\": \"number\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"axis_min\": \"0\", \"time_field\": \"@timestamp\", \"show_legend\": 1, \"series\": [{\"point_size\": 1, \"line_width\": 1, \"label\": \"Malloc Count\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"sum\", \"field\": \"consul.agent.runtime.malloc_count\"}, {\"unit\": \"\", \"id\": \"7a6e0aa0-2dea-11e9-83ed-b7c793d35de5\", \"type\": \"derivative\", \"field\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"separate_axis\": 0, \"color\": \"#68BC00\", \"stacked\": \"none\", \"formatter\": \"number\", \"split_mode\": \"everything\", \"axis_position\": \"right\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"chart_type\": \"line\"}], \"interval\": \"auto\", \"axis_scale\": \"normal\"}, \"type\": \"metrics\", \"title\": \"Malloc count [Metricbeat Consul]\", \"aggs\": []}"
             },
             "id": "8ab67000-2dea-11e9-bf7e-f35bf5d2e71b",
             "migrationVersion": {
@@ -187,12 +187,12 @@
             "attributes": {
                 "description": "",
                 "kibanaSavedObjectMeta": {
-                    "searchSourceJSON": "{\"query\": {\"language\": \"lucene\", \"query\": \"\"}, \"filter\": []}"
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"lucene\"}, \"filter\": []}"
                 },
                 "title": "Garbage Collector pause ms [Metricbeat Consul]",
                 "uiStateJSON": "{}",
                 "version": 1,
-                "visState": "{\"aggs\": [], \"type\": \"metrics\", \"params\": {\"show_grid\": 1, \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"series\": [{\"metrics\": [{\"type\": \"avg\", \"field\": \"consul.agent.runtime.garbage_collector.pause.current.ns\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"point_size\": 1, \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"separate_axis\": 0, \"line_width\": 1, \"chart_type\": \"line\", \"label\": \"Garbage Collector pause\", \"value_template\": \"{{value}} ms\", \"stacked\": \"none\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"formatter\": \"ns,ms,4\", \"split_mode\": \"everything\"}], \"axis_scale\": \"normal\", \"show_legend\": 1, \"time_field\": \"@timestamp\", \"axis_formatter\": \"number\", \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_min\": \"0\"}, \"title\": \"Garbage Collector pause ms [Metricbeat Consul]\"}"
+                "visState": "{\"params\": {\"show_grid\": 1, \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_formatter\": \"number\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"axis_min\": \"0\", \"time_field\": \"@timestamp\", \"show_legend\": 1, \"series\": [{\"point_size\": 1, \"line_width\": 1, \"label\": \"Garbage Collector pause\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"avg\", \"field\": \"consul.agent.runtime.garbage_collector.pause.current.ns\"}], \"separate_axis\": 0, \"color\": \"#68BC00\", \"stacked\": \"none\", \"formatter\": \"ns,ms,4\", \"split_mode\": \"everything\", \"axis_position\": \"right\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"chart_type\": \"line\", \"value_template\": \"{{value}} ms\"}], \"interval\": \"auto\", \"axis_scale\": \"normal\"}, \"type\": \"metrics\", \"title\": \"Garbage Collector pause ms [Metricbeat Consul]\", \"aggs\": []}"
             },
             "id": "d275dbc0-2de9-11e9-bf7e-f35bf5d2e71b",
             "migrationVersion": {
@@ -207,12 +207,12 @@
             "attributes": {
                 "description": "",
                 "kibanaSavedObjectMeta": {
-                    "searchSourceJSON": "{\"query\": {\"language\": \"lucene\", \"query\": \"\"}, \"filter\": []}"
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"lucene\"}, \"filter\": []}"
                 },
                 "title": "Garbage Collector Runs [Metricbeat Consul]",
                 "uiStateJSON": "{}",
                 "version": 1,
-                "visState": "{\"aggs\": [], \"type\": \"metrics\", \"params\": {\"show_grid\": 1, \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"series\": [{\"metrics\": [{\"type\": \"sum\", \"field\": \"consul.agent.runtime.garbage_collector.runs\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}, {\"type\": \"derivative\", \"unit\": \"\", \"field\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"id\": \"ffaa1fc0-2de9-11e9-83ed-b7c793d35de5\"}], \"point_size\": 1, \"steps\": 1, \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"separate_axis\": 0, \"line_width\": 1, \"chart_type\": \"line\", \"label\": \"Garbage Collector Runs\", \"stacked\": \"none\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"formatter\": \"number\", \"split_mode\": \"everything\"}], \"axis_scale\": \"normal\", \"show_legend\": 1, \"time_field\": \"@timestamp\", \"axis_formatter\": \"number\", \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_min\": \"0\"}, \"title\": \"Garbage Collector Runs [Metricbeat Consul]\"}"
+                "visState": "{\"params\": {\"show_grid\": 1, \"axis_position\": \"left\", \"index_pattern\": \"metricbeat-*\", \"axis_formatter\": \"number\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"type\": \"timeseries\", \"axis_min\": \"0\", \"time_field\": \"@timestamp\", \"show_legend\": 1, \"series\": [{\"point_size\": 1, \"line_width\": 1, \"label\": \"Garbage Collector Runs\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"sum\", \"field\": \"consul.agent.runtime.garbage_collector.runs\"}, {\"unit\": \"\", \"id\": \"ffaa1fc0-2de9-11e9-83ed-b7c793d35de5\", \"type\": \"derivative\", \"field\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"separate_axis\": 0, \"color\": \"#68BC00\", \"steps\": 1, \"stacked\": \"none\", \"formatter\": \"number\", \"split_mode\": \"everything\", \"axis_position\": \"right\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5, \"chart_type\": \"line\"}], \"interval\": \"auto\", \"axis_scale\": \"normal\"}, \"type\": \"metrics\", \"title\": \"Garbage Collector Runs [Metricbeat Consul]\", \"aggs\": []}"
             },
             "id": "1e97c1d0-2dea-11e9-bf7e-f35bf5d2e71b",
             "migrationVersion": {
