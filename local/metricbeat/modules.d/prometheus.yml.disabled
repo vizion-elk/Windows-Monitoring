@@ -1,8 +1,10 @@
 # Module: prometheus
 # Docs: https://www.elastic.co/guide/en/beats/metricbeat/7.7/metricbeat-module-prometheus.html
 
+# Metrics collected from a Prometheus endpoint
 - module: prometheus
   period: 10s
+  metricsets: ["collector"]
   hosts: ["localhost:9090"]
   metrics_path: /metrics
   #metrics_filters:
@@ -16,12 +18,6 @@
   #ssl.certificate_authorities:
   #  - /var/run/secrets/kubernetes.io/serviceaccount/service-ca.crt
 
-  # Use Elasticsearch histogram type to store histograms (beta, default: false)
-  # This will change the default layout and put metric type in the field name
-  #use_types: true
-
-  # Store counter rates instead of original cumulative counters (experimental, default: false)
-  #rate_counters: true
 
 # Metrics sent by a Prometheus server using remote_write option
 #- module: prometheus
