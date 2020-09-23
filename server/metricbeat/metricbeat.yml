@@ -62,7 +62,6 @@ setup.kibana:
   host: ""
   username: ""
   password: ""
-  ssl.verification_mode: none
 
   # Kibana Host
   # Scheme and port can be left out and will be set to the default (http and 5601)
@@ -96,7 +95,8 @@ setup.kibana:
 output.elasticsearch:
   # Array of hosts to connect to.
   hosts: ["elasticsearch-api-endpoint"]
-  ssl.verification_mode: none
+  username: ""
+  password: ""
 
   # Protocol - either `http` (default) or `https`.
   #protocol: "https"

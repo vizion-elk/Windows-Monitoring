@@ -12,7 +12,6 @@ setup.kibana:
   host: ""
   username: ""
   password: ""
-  ssl.verification_mode: none
 #================================ Outputs =====================================
 
 # Configure what output to use when sending the data collected by the beat.
@@ -20,6 +19,8 @@ setup.kibana:
 #-------------------------- Elasticsearch output ------------------------------
 output.elasticsearch:
   hosts: ["elasticsearch-api-endpoint"]
+  username: ""
+  password: ""
   pipeline: "permissions"
   index: "permissions"
   ssl.verification_mode: none
